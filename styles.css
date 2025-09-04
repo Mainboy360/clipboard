@@ -537,13 +537,13 @@ img[src*="logo-vector-graphics.png"] {
     justify-content: flex-start;
     flex-direction: row;
     align-items: flex-start;
-    gap: 100px;
+    gap: 50px;
     margin-top: 150px;
     margin-left: -30px;
 }
 
 img[src*="image-computer.png"]{
-    width: 600px;
+    width: 450px;
     height: 100%;   /*Image of a single mac desktop*/
 }
 
@@ -582,7 +582,7 @@ img[src*="image-computer.png"]{
 }
 
 img[src*="image-devices.png"] {
-    width: 700px;
+    width: 550px;
     height: 100%;   /*Image of a tablet beside an iphone*/
 }
 
@@ -602,7 +602,7 @@ img[src*="image-devices.png"] {
     align-content: center;
     gap: 10px;
     margin-top: 50px;
-    margin: 0px 10px 0px 10px;
+    margin: 10px 15px 0px 15px;
 }
 
 .create-container,
@@ -614,7 +614,7 @@ img[src*="image-devices.png"] {
     flex-direction: column;
     text-align: center;
     line-height: 1.5;
-    margin: 30px 50px 0px 50px;
+    margin: 30px 10px 0px 10px;
 
 }
 
@@ -638,7 +638,7 @@ img[src*="logo-ibm.png"],
 img[src*="logo-microsoft.png"],
 img[src*="logo-hp.png"],
 img[src*="logo-vector-graphics.png"] {
-    width: 125px;
+    width: 105px;
     height: 100%;
 }
 
@@ -661,7 +661,7 @@ img[src*="logo-vector-graphics.png"] {
     align-items: center;
     margin-top: 150px;
     padding: 50px;
-    gap: 400px;
+    gap: 200px;
     background-color: aliceblue;
 
 }
@@ -670,20 +670,19 @@ img[src*="logo-vector-graphics.png"] {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 100px;
 }
 
 .footer-links {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 100px;
+    gap: 70px;
 }
 
 .clipboard-copy-logo img[src*="logo.svg"] {
     width: 35px;
     height: 100%;
-    margin-left: 100px;
+    margin-left: 10px;
 } 
 
 .faq-and-contact,
