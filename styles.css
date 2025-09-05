@@ -1931,7 +1931,6 @@ img[src*="logo-vector-graphics.png"] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: blue;
 }
 
  img[src*="logo.svg"] {
