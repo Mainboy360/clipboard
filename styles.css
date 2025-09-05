@@ -1194,14 +1194,14 @@ img[src*="logo-vector-graphics.png"] {
     text-align: center;
    /* padding: 10px 20px 10px 20px; */
     line-height: 1.4;
-        margin: -60px 60px 10px 60px ;
+    margin: -80px 20px 10px 20px ;
 
     padding: 50px;
 
 }
 
 .a-history-of-everything {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
 .app-stores-links {
@@ -1433,7 +1433,7 @@ img[src*="logo-vector-graphics.png"] {
 }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 460px) {
 .clipboard-landing-page-container {
     flex-direction: column;
     display: flex;
@@ -1689,4 +1689,264 @@ img[src*="logo-vector-graphics.png"] {
     flex-direction: column;
     gap: 20px;
 }
+}
+
+@media (max-width: 415px) {
+    .clipboard-landing-page-container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.clipboard-board-header-setion {
+    background-image: url("images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.a-history-of-everything-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    line-height: 1.4;
+
+
+}
+
+.a-history-of-everything {
+    font-size: 1.7rem;
+}
+
+.app-stores-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.download-ios button,
+.download-mac button {
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.download-ios button {
+    background-color: hsl(171, 66%, 44%);
+    color: rgb(235, 238, 240);
+    border-color: hsl(171, 66%, 44%);
+    font-weight: 700;
+}
+
+
+.download-mac button {
+    background-color: hsl(233, 100%, 69%);
+    color: rgb(235, 238, 240);
+    border-color: hsl(233, 100%, 69%);
+    font-weight: 700;
+
+}
+
+.keep-track-of-snippet-ontainer {
+    margin: 90px 60px 10px 60px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.keep-track-of-snippet-para {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+
+.apple-monitor-and-side-description-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 90px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+img[src*="image-computer.png"]{
+    width: 250px;
+    height: 100%;   /*Image of a single mac desktop*/
+}
+
+.quick-n-icloud-complete {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.quick-search-container,
+.icloud-container,
+.complete-history-container {
+    line-height: 1.5;
+        justify-content: center;
+    align-items: center;
+}
+
+.access-clipboard-anywhere-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.access-clipboard-anywhere {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+.access-clipboard-img {
+    margin-top: 100px;
+}
+
+img[src*="image-devices.png"] {
+    width: 300px;
+    height: 100%;   /*Image of a tablet beside an iphone*/
+}
+
+.supercharge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.5;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+
+.create-plain-and-sneak-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+    margin: 10px 15px 0px 15px;
+}
+
+.create-container,
+.plaintext-container,
+.sneak-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 1.5;
+    margin: 30px 10px 0px 10px;
+
+}
+
+.sneak,
+.create,
+.plaintext {
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.bigtech-companies-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 130px;
+    gap: 50px;
+}
+
+img[src*="logo-google.png"],
+img[src*="logo-ibm.png"],
+img[src*="logo-microsoft.png"],
+img[src*="logo-hp.png"],
+img[src*="logo-vector-graphics.png"] {
+    width: 105px;
+    height: 100%;
+}
+
+
+.clipboard-for-ios-and-mac-container {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px 0px 50px;
+}
+
+.clipboard-for-ios-and-mac {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.7;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.image-links-and-socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+ img[src*="logo.svg"] {
+    width: 70px;
+    height: 100%;
+} 
+
+.faq-and-contact,
+.privacy-and-press-kit,
+.install-guide {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
 }
