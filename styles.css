@@ -1172,6 +1172,7 @@ img[src*="logo-vector-graphics.png"] {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .clipboard-board-header-setion {
@@ -1179,8 +1180,6 @@ img[src*="logo-vector-graphics.png"] {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 80px 45vw;
-
 }
 
 .a-history-of-everything-container {
@@ -1189,6 +1188,7 @@ img[src*="logo-vector-graphics.png"] {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    text-align: center;
 
 }
 
@@ -1224,12 +1224,11 @@ img[src*="logo-vector-graphics.png"] {
 }
 
 .keep-track-of-snippet-ontainer {
-    margin-top: 300px;
+    margin: 120px 26px 10px 26px ;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 20px;
     text-align: center;
 }
 
@@ -1250,11 +1249,11 @@ img[src*="logo-vector-graphics.png"] {
     align-items: center;
     gap: 50px;
     margin-top: 150px;
-    margin-left: -30px;
+    text-align: center;
 }
 
 img[src*="image-computer.png"]{
-    width: 450px;
+    width: 250px;
     height: 100%;   /*Image of a single mac desktop*/
 }
 
@@ -1293,7 +1292,7 @@ img[src*="image-computer.png"]{
 }
 
 img[src*="image-devices.png"] {
-    width: 550px;
+    width: 300px;
     height: 100%;   /*Image of a tablet beside an iphone*/
 }
 
@@ -1373,9 +1372,7 @@ img[src*="logo-vector-graphics.png"] {
     justify-content: center;
     align-items: center;
     margin-top: 150px;
-    padding: 50px;
     gap: 100px;
-    background-color: aliceblue;
 
 }
 
